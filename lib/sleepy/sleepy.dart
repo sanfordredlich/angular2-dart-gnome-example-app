@@ -6,7 +6,11 @@ import 'dart:async';
 class Sleepy {
   // changes the DOM
   void wake() {
-    querySelector("#RipVanWinkle").text = "Wake up, sleepyhead";
+    querySelector("#RipVanWinkle").text = "Wake up, sleepyhead!";
+  }
+
+  void sleep() {
+    querySelector("#RipVanWinkle").text = "So sleepy...";
   }
 
   // uses async* to generate a Stream of "z"

@@ -12,13 +12,20 @@ main() {
 
     setUp(() {
       sleepy = new Sleepy();
+      querySelector("#RipVanWinkle").text = "original text";
     });
 
     // test changes to the DOM
-    test('wake() should change the text of #RipVanWinkle', ()  {
+    test('wake() should change the text of #RipVanWinkle to waking', ()  {
       expect(querySelector("#RipVanWinkle").text, equals("original text"));
       sleepy.wake();
-      expect(querySelector("#RipVanWinkle").text, equals("Wake up, sleepyhead"));
+      expect(querySelector("#RipVanWinkle").text, equals("Wake up, sleepyhead!"));
+    });
+
+    test('sleep() should change the text of #RipVanWinkle to sleeping', ()  {
+      expect(querySelector("#RipVanWinkle").text, equals("original text"));
+      sleepy.sleep();
+      expect(querySelector("#RipVanWinkle").text, equals("So sleepy..."));
     });
 
     // uses async/await to test asynchronous events
