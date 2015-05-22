@@ -5,7 +5,7 @@ import 'dart:async';
 
 class Sleepy {
   // changes the DOM
-  wake() {
+  void wake() {
     querySelector("#RipVanWinkle").text = "Wake up, sleepyhead";
   }
 
