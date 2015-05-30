@@ -9,3 +9,4 @@ dependencies:
   browser: "^0.10.0"
 dev_dependencies:
   test: any
+  mockito: any

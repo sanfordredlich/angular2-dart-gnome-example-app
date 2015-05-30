@@ -1,4 +1,7 @@
 library math;
 
 // simple code intentions can be very simply stated
-int easy4() => 2+2;
+class Math {
+  static int doubleIt(int i) => 2 * i;
+}
+
