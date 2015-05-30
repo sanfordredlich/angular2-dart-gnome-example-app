@@ -1,6 +1,9 @@
 # Angular2 Dart Gnome Tutorial
 
-## Demonstrates in Angular2
+## My Angular2 API cheatsheet
+[Angular2 Dart Cheatsheet gDoc](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
+
+## What this app demonstrates in Angular2
  - nested components
  - passing data to a nested component
  - receiving DOM events from a nested component
@@ -16,8 +19,11 @@
  - pub serve
  
 ## How to run the tests
- - non-browser tests: pub run test
- - all tests in the browser: pub run test -p dartium
+ - pub run test // runs the non-browser tests
+ - pub run test -p dartium // runs all the tests using Dartium (assuming it's configured)
  
-## This little app was created using my summary of the Angular2 API; hope it helps you too
-[Angular2 Dart Cheatsheet gDoc](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
+## Roadmap, stuff to add
+ - testing a component with a custom HTML testbed
+ - testing a component using TestComponentBuilder, [like this](https://github.com/angular/angular/blob/0db88f34b8ee20c5b6f926d2c92481de74d3f030/modules/angular2/test/test_lib/test_component_builder_spec.ts)
+ - service layer using JSON
+ - per-component CSS
