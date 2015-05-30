@@ -27,3 +27,4 @@
  - testing a component using TestComponentBuilder, [like this](https://github.com/angular/angular/blob/0db88f34b8ee20c5b6f926d2c92481de74d3f030/modules/angular2/test/test_lib/test_component_builder_spec.ts)
  - service layer using JSON
  - per-component CSS
+ - testing elements in the shadow dom
