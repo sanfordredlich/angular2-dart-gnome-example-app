@@ -1,4 +1,5 @@
 # Angular2 Dart Gnome Tutorial
+
 ## Demonstrates in Angular2
  - nested components
  - passing data to a nested component
@@ -17,3 +18,6 @@
 ## How to run the tests
  - non-browser tests: pub run test
  - all tests in the browser: pub run test -p dartium
+ 
+## This little app was created using my summary of the Angular2 API; hope it helps you too
+[Angular2 Dart Cheatsheet gDoc](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
