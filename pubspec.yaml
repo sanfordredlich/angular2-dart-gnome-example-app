@@ -1,5 +1,5 @@
 name: 'gnome_tutorial'
-version: 0.0.2
+version: 0.0.3
 description: Gnome Tutorial
 author: Sanford Redlich <siredlich@gmail.com>
 environment:
