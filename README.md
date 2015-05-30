@@ -1,11 +1,11 @@
-# AngularDartGnomeTutorial
-## Demonstrates
+# Angular2 Dart Gnome Tutorial
+## Demonstrates in Angular2
  - nested components
- - passing to a nested component
+ - passing data to a nested component
  - receiving DOM events from a nested component
  - receiving custom events from a nested component
- - showing variables in HTML
- - showing/hiding elements based on state
+ - displaying variables in HTML
+ - showing/hiding DOM elements based on state
  - testing asynchronous behavior using expectAsync
  - testing asynchronous behavior using async/await
 
