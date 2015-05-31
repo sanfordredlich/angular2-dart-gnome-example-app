@@ -15,12 +15,12 @@
 
 ## How to run the app with Dartium
  - cd to the application directory
- - pub upgrade
+ - pub get
  - pub serve
  
 ## How to run the tests
- - pub run test // runs the non-browser tests
- - pub run test -p dartium // runs all the tests using Dartium (assuming it's configured)
+ - pub run test  # runs the non-browser tests
+ - pub run test -p dartium  # runs all the tests using Dartium (assuming it's configured)
  
 ## Roadmap, stuff to add
  - testing a component with a custom HTML testbed
