@@ -1,7 +1,7 @@
-# Angular2 Dart Gnome Tutorial
+# Angular2 Dart Gnome Example App
 
 ## My Angular2 API cheatsheet
-[Angular2 Dart Cheatsheet gDoc](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
+[Angular2 Dart cheatsheet (google doc)](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
 
 ## What this app demonstrates in Angular2
  - nested components
