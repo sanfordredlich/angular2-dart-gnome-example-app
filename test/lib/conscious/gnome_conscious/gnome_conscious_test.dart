@@ -3,7 +3,7 @@
 
 import 'dart:async';
 import 'package:test/test.dart';
-import 'package:gnome_tutorial/gnome_conscious/gnome_conscious.dart';
+import 'package:angular2_gnome_example_app/gnome_conscious/gnome_conscious.dart';
 
 main() {
   var gnomeConscious;

@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:gnome_tutorial/math/math.dart';
+import 'package:angular2_gnome_example_app/math/math.dart';
 
 main() {
   // test that doesn't require a browser

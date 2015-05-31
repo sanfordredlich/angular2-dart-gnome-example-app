@@ -1,8 +1,8 @@
 library gnome_app;
 
 import 'package:angular2/angular2.dart';
-import 'package:gnome_tutorial/gnome_conscious/gnome_conscious.dart';
-import 'package:gnome_tutorial/math/math.dart';
+import 'package:angular2_gnome_example_app/gnome_conscious/gnome_conscious.dart';
+import 'package:angular2_gnome_example_app/math/math.dart';
 
 @Component(
     selector: 'gnome-app'

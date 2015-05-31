@@ -1,6 +1,6 @@
-name: 'gnome_tutorial'
+name: 'angular2_gnome_example_app'
 version: 0.0.4
-description: Gnome Tutorial
+description: Angular2 Dart gnome example app
 author: Sanford Redlich <siredlich@gmail.com>
 environment:
   sdk: '^1.9.3'

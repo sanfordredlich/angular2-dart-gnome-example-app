@@ -3,7 +3,7 @@ library gnome_conscious;
 import 'dart:async';
 import 'dart:html';
 import 'package:angular2/angular2.dart';
-import 'package:gnome_tutorial/gnome_pics/gnome_pics.dart';
+import 'package:angular2_gnome_example_app/gnome_pics/gnome_pics.dart';
 
 @Component(
     selector: 'gnome-conscious',
