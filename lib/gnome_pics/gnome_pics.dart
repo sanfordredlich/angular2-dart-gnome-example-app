@@ -4,7 +4,7 @@ import 'package:angular2/angular2.dart';
 
 @Component(
     selector: 'gnome-pics',
-    properties: const {'isSleeping': 'is-sleeping'}
+    properties: const ['isSleeping']
     )
 @View(
     template: '''
