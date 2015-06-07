@@ -11,13 +11,13 @@
  - displaying variables in HTML
  - showing/hiding DOM elements based on state
  - testing asynchronous behavior using expectAsync
- - testing asynchronous behavior using async/await
 
-## How to run the app with Dartium
+## How to run the app with Dartium or any browser
  - cd to the application directory
  - pub get
  - pub serve
- 
+ - go to the url specified in the output
+
 ## How to run the tests
  - pub run test  # runs the non-browser tests
  - pub run test -p dartium  # runs all the tests using Dartium (assuming it's configured)
