@@ -15,22 +15,35 @@ import 'package:angular2_gnome_example_app/math/math.dart';
       <p/>
 
       <!--conditionally display a variable-->
-      <b *ng-if="isShowFriends">The gnome is awake, let's have a party with {{count}} guests!</b>
+      <b *ng-if="moreData?.isShowFriends">The gnome is awake, let's have a party with {{moreData.count}} guests!</b>
+      <p>
+
+      <!--test the Elvis operator from Alpha 26: https://github.com/angular/angular/issues/791-->
+      <span>If Elvis notation works, these will be empty quotes: "{{null?.isShowFriends}}"</span>
     ''',
     directives: const [GnomeConscious, NgIf]
     )
 class GnomeApp {
-  bool isShowFriends = true;
-  int count = 2;
+  MoreData moreData;
 
-  bumpGuestCount() => count += Math.doubleIt(count);
+  GnomeApp() {
+    moreData = new MoreData();
+  }
+
+  bumpGuestCount() => moreData.count += Math.doubleIt(moreData.count);
 
   void showFriends() {
-    isShowFriends = true;
+    moreData.isShowFriends = true;
     bumpGuestCount();
   }
 
   void hideFriends() {
-    isShowFriends = false;
+    moreData.isShowFriends = false;
   }
+}
+
+class MoreData {
+  bool isShowFriends = true;
+  int count = 2;
+  int nullCount = null;
 }

@@ -11,6 +11,8 @@
  - displaying variables in HTML
  - showing/hiding DOM elements based on state
  - testing asynchronous behavior using expectAsync
+ - from Alpha 26
+     - [Elvis operator](https://github.com/angular/angular/issues/791)
 
 ## How to run the app with Dartium or any browser
  - cd to the application directory
@@ -25,7 +27,6 @@
 ## Roadmap, stuff to add
  - testing a component with a custom HTML testbed
  - add examples of using features added in alpha 26
-  - [Elvis operator](https://github.com/angular/angular/issues/791)
   - [using pipes in List of properties (no longer a map))](https://github.com/angular/angular/issues/2013); [new syntax](https://github.com/angular/angular/commit/d7df853bde30ffe97045eff649240284ae6ffdf8)
   - testing a component using TestComponentBuilder, [like this](https://github.com/angular/angular/blob/0db88f34b8ee20c5b6f926d2c92481de74d3f030/modules/angular2/test/test_lib/test_component_builder_spec.ts)
   - for Forms,
