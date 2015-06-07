@@ -4,15 +4,17 @@
 [Angular2 Dart cheatsheet (google doc)](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
 
 ## What this app demonstrates in Angular2
- - nested components
- - passing data to a nested component
- - receiving DOM events from a nested component
- - receiving custom events from a nested component
- - displaying variables in HTML
- - showing/hiding DOM elements based on state
- - testing asynchronous behavior using expectAsync
+ - nested components (search for #NestedComponents)
+ - passing data to a nested component (search for #PassingDataToSubComponents)
+ - receiving DOM events from a nested component (search for #ReactingToComponentDomEvents)
+ - receiving custom events from a nested component (search for #ReactingToComponentEvents)
+ - displaying variables in HTML (search for #DisplayingVarsInHtml)
+ - showing/hiding DOM elements based on state (search for #ShowHideDomBasedOnState)
+ - testing asynchronous behavior using 
+     - expectAsync (search for #TestAsyncWithExpectAsync)
+     - async/await (search for #TestAsyncWithAsyncAwait)
  - from Alpha 26
-     - [Elvis operator](https://github.com/angular/angular/issues/791)
+     - [Elvis operator](https://github.com/angular/angular/issues/791) (search for #ElvisOperator)
 
 ## How to run the app with Dartium or any browser
  - cd to the application directory

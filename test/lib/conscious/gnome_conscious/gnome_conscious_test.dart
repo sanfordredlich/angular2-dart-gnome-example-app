@@ -26,6 +26,7 @@ main() {
     });
   });
 
+  //#TestAsyncWithExpectAsync
   group('test the component events using expectAsync, needs a browser', () {
 
     // use expectAsync to test that events are emitted by the component
@@ -46,6 +47,7 @@ main() {
     });
   });
 
+  //#TestAsyncWithAsyncAwait
   group('test asynchronous events using async/await', () {
 
     // uses async/await to test asynchronous events

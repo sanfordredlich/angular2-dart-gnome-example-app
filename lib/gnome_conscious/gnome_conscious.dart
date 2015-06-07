@@ -12,12 +12,12 @@ import 'package:angular2_gnome_example_app/gnome_pics/gnome_pics.dart';
     )
 @View(
     template: '''
-      <!-- pass the result of an expression into GnomePics -->
+      <!-- pass the result of an expression into GnomePics, #PassingDataToSubComponents -->
       <gnome-pics [is-sleeping]="isSleeping"></gnome-pics>
 
       <p>
 
-      <!-- show/hide elements based on state, react to native DOM events -->
+      <!-- show/hide elements based on state, react to native DOM events, #ReactingToComponentDomEvents -->
       Change the gnome's state:
       <button *ng-if="!isSleeping" (click)="sleep()">Sleep</button>
       <button *ng-if="isSleeping" (click)="wake()">Wake</button>

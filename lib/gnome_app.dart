@@ -9,19 +9,19 @@ import 'package:angular2_gnome_example_app/math/math.dart';
     )
 @View(
     template: '''
-      <!-- react to custom events -->
+      <!-- react to custom events #ReactingToComponentEvents -->
       <gnome-conscious (awoke)="showFriends()" (slept)="hideFriends()"></gnome-conscious>
 
       <p/>
 
-      <!--conditionally display a variable-->
+      <!--conditionally display a variable, #DisplayingVarsInHtml, #ShowHideDomBasedOnState-->
       <b *ng-if="moreData?.isShowFriends">The gnome is awake, let's have a party with {{moreData.count}} guests!</b>
       <p>
 
-      <!--test the Elvis operator from Alpha 26: https://github.com/angular/angular/issues/791-->
+      <!--test the Elvis operator from Alpha 26: https://github.com/angular/angular/issues/791, #ElvisOperator-->
       <span>If Elvis notation works, these will be empty quotes: "{{null?.isShowFriends}}"</span>
     ''',
-    directives: const [GnomeConscious, NgIf]
+    directives: const [GnomeConscious, NgIf] // #NestedComponents
     )
 class GnomeApp {
   MoreData moreData;
