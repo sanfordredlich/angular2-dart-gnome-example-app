@@ -23,7 +23,6 @@
  - pub run test -p dartium  # runs all the tests using Dartium (assuming it's configured)
  
 ## Roadmap, stuff to add
- - set up transformers to JS
  - testing a component with a custom HTML testbed
  - add examples of using features added in alpha 26
   - [Elvis operator](https://github.com/angular/angular/issues/791)
