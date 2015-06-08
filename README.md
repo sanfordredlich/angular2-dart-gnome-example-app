@@ -40,4 +40,3 @@
  - per-component CSS
  - testing elements in the shadow dom
  - router integration
- - service layer using JSON
