@@ -28,7 +28,7 @@ class GnomeApp {
   DataService googleBook;
   MoreData moreData;
 
-  GnomeApp() {
+  GnomeApp(){
     googleBook = new DataService();
     moreData = new MoreData();
   }

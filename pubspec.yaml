@@ -3,9 +3,9 @@ version: 0.0.5
 description: Angular2 Dart gnome example app
 author: Sanford Redlich <siredlich@gmail.com>
 environment:
-  sdk: '^1.10.1'
+  sdk: '1.10.1'
 dependencies:
-  angular2: "2.0.0-alpha.26"
+  angular2: "2.0.0-alpha.27"
   browser: "0.10.0+2"
   json_object: "1.0.18"
 dev_dependencies:
@@ -19,3 +19,5 @@ transformers:
       minify: true
       #commandLineOptions: [--trust-type-annotations, --trust-primitives, --dump-info]
         # trust-* tells Dart to trust your type annotations and to therefore be able to prune more JS, see: http://dovdev.com/get-the-most-out-of-dart2js-with-a-little-trust/
+  - test/pub_serve:
+      $include: test/**_test{.*,}.dart

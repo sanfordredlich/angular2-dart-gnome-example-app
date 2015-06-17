@@ -13,9 +13,11 @@
  - testing asynchronous behavior using 
      - expectAsync (#TestAsyncWithExpectAsync)
      - async/await (#TestAsyncWithAsyncAwait)
+ - working with a JSON REST API (#JsonRestApi)
  - from Alpha 26
      - [Elvis operator](https://github.com/angular/angular/issues/791) (#ElvisOperator)
- - working with a JSON REST API (#JsonRestApi)
+ - from Alpha 27
+     - events: ['rate', 'myEmmitterName: myevent'], // emits 'rate' and 'myevent' (#EmitterNaming)
 
 ## How to run the app with Dartium or any browser
  - cd to the application directory
@@ -40,3 +42,4 @@
  - per-component CSS
  - testing elements in the shadow dom
  - router integration
+ - service tests

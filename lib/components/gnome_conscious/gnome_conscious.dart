@@ -8,7 +8,7 @@ import 'package:angular2/angular2.dart';
 @Component(
     selector: 'gnome-conscious',
     // NOTE: events cannot contain upper case; the html listeners will simply fail to respond
-    events: const ['awoke', 'slept']
+    events: const ['awoke', 'sleptEmitter: slept'] // #EmitterNaming
     )
 @View(
     template: '''
@@ -19,25 +19,25 @@ import 'package:angular2/angular2.dart';
 
       <!-- show/hide elements based on state, react to native DOM events, #ReactingToComponentDomEvents -->
       Change the gnome's state:
-      <button *ng-if="!isSleeping" (click)="sleep()">Sleep</button>
-      <button *ng-if="isSleeping" (click)="wake()">Wake</button>
+      <button class="sleep" *ng-if="!isSleeping" (click)="sleep()">Sleep</button>
+      <button class="wake" *ng-if="isSleeping" (click)="wake()">Wake</button>
     ''',
     directives: const [GnomePics, NgIf]
     )
 class GnomeConscious {
   bool isSleeping = false;
   EventEmitter awoke;
-  EventEmitter slept;
+  EventEmitter sleptEmitter;
 
   GnomeConscious() {
     awoke = new EventEmitter();
-    slept = new EventEmitter();
+    sleptEmitter = new EventEmitter();
   }
 
   void sleep() {
     isSleeping = true;
     // when just triggering a listener, sending null works, or could send a value
-    slept.add(null);
+    sleptEmitter.add(null);
   }
 
   void wake() {
